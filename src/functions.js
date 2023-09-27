@@ -28,18 +28,21 @@ function approximatelyEqual(x, y) {}
 //   fullName('John', 'Doe');
 //   => 'John Doe'
 function fullName(firstName, lastName) {
-    return (firstName + lastName);
+  return `${firstName} ${lastName}`;
   }
-  
-  const result = fullName('FIRST', 'LAST');
-  console.log('result');
 
 // Generate the sentence "PERSON was drinking BEVERAGE at LOCATION" using the
 // person, beverage and location provided.
 // Ex.:
 //   generateSentence('Kay', 'coffee', 'the local cafe');
 //   => 'Kay was drinking coffee at the local cafe.'
-function generateSentence(person, beverage, location) {}
+function generateSentence(person, beverage, location) {
+  return `${person} was drinking ${beverage} at ${location}.`
+}
+
+const person = 'Kay'
+const beverage = 'coffee'
+const location = 'the local cafe'
 
 // Return the given string with all vowels replced with '*' characters.
 // Ex.:
