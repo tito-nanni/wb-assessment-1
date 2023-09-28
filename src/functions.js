@@ -21,7 +21,7 @@ return (x+y)/2;
 // Ex.:
 //   approximatelyEqual(10.001, 10);
 //   => true
-function approximatelyEqual(x, y) {}
+function approximatelyEqual(x, y){}
 
 // Given a first name and last name, return a full name in the format "FIRST LAST"
 // Ex.:
@@ -54,7 +54,15 @@ function censorVowels(string) {}
 // Ex.:
 //   stickyCase('hello world');
 //   => 'hElLo wOrLd'
-function stickyCase(string) {}
+function stickyCase(string){
+  let result = ''
+  let isUpperCase = true;
+
+  for (let i = 0; i < string.length; i++) {
+    
+  }
+}
+
 
 // Return the given string in leetspeak. Leetspeak is a modified version of
 // English where characters are replaced by numbers or symbols. For this

@@ -104,9 +104,9 @@ function makeWordArray(phrase) {
 ```
 
 - [ ] **A.** Nothing happens because the program errors out.
-- [x ] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
+- [] **B.** It defines a function called `makeWordArray` and converts `phrase` into an array of words.
 - [ ] **C.** It defines a function called `makeWordArray` and outputs a word array.
-- [ ] **D.** It defines a function called `makeWordArray` but nothing else happens.
+- [x ] **D.** It defines a function called `makeWordArray` but nothing else happens.
 
 ### A.7. Identify the error
 
@@ -208,9 +208,9 @@ outputArgs('hi', 'bye');
   called with just two.
 - [ ] **B.** The code causes an error because it will output `hi`, `bye`, and `undefined` instead
   of the expected output.
-- [ x] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
+- [ ] **C.** The code causes an error because the `a`, `b`, and `c` variables haven't been
   initialized.
-- [ ] **D.** There is no error; the code generates the expected output.
+- [ x] **D.** There is no error; the code generates the expected output.
 
 ## B. Free response
 
