@@ -21,7 +21,14 @@ return (x+y)/2;
 // Ex.:
 //   approximatelyEqual(10.001, 10);
 //   => true
-function approximatelyEqual(x, y){}
+function approximatelyEqual(x, y){
+  //calculate the absolute difference between x and y
+  const absoluteDifference = Math.abs(x-y);
+
+  //Check if the absolute difference is less than 0.001
+  return absoluteDifference < 0.001
+  }
+
 
 // Given a first name and last name, return a full name in the format "FIRST LAST"
 // Ex.:
@@ -48,20 +55,14 @@ const location = 'the local cafe'
 // Ex.:
 //   censorVowels('javascript');
 //   => 'j*v*scr*pt'
-function censorVowels(string) {}
+function censorVowels(string) {
+}
 
 // Return the given string in sticky case.
 // Ex.:
 //   stickyCase('hello world');
 //   => 'hElLo wOrLd'
-function stickyCase(string){
-  let result = ''
-  let isUpperCase = true;
-
-  for (let i = 0; i < string.length; i++) {
-    
-  }
-}
+function stickyCase(string){}
 
 
 // Return the given string in leetspeak. Leetspeak is a modified version of

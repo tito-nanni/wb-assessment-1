@@ -121,7 +121,15 @@ return undefined
 // Ex.:
 //   range(1, 5);
 //   => [1, 2, 3, 4, 5]
-function range(start, stop) {}
+function range(start, stop) {
+  const result = [];
+
+  for (let i = start; i <= stop; i++ ) {
+    result.push(i);
+  }
+
+  return result;
+}
 
 export {
   bWords,
